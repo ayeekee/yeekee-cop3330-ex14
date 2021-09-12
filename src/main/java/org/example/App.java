@@ -27,7 +27,7 @@ public class App {
             tax = order * 0.055;
             total += tax;
 
-            System.out.println("The subtotal is $" + String.format("%.2f", order) + ".\nThe tax is $" + tax + ".");
+            System.out.println("The subtotal is $" + String.format("%.2f", order) + ".\nThe tax is $" + String.format("%.2f", tax) + ".");
         }
 
         System.out.println("The total is $" + String.format("%.2f", total));
